@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\노기린\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\NAT Service;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\노기린\AppData\Local\Microsoft\WindowsApps;;C:\Users\노기린\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\노기린\AppData\Roaming\npm;C:\Users\노기린\AppData\Local\afreeca;C:\Users\노기린\.dotnet\tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\노기린\AppData\Local\Yarn\Cache\v6\npm-html-webpack-plugin-5.5.0-c3911936f57681c1f9f4d8b68c158cd9dfe52f50-integrity\node_modules\html-webpack-plugin\package.json' -> 'C:\Users\노기린\Desktop\projects\enhance\node_modules\html-webpack-plugin\package.json'
+
+npm manifest: 
+  {
+    "name": "enhance",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "build": "webpack",
+      "dev": "webpack-dev-server --hot"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nohtaesang/enhance.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nohtaesang/enhance/issues"
+    },
+    "homepage": "https://github.com/nohtaesang/enhance#readme",
+    "devDependencies": {
+      "html-webpack-plugin": "^5.5.0",
+      "jest": "^27.5.1",
+      "ts-loader": "^9.2.8",
+      "typescript": "^4.6.3",
+      "webpack": "^5.70.0",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
